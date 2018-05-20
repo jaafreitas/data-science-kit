@@ -1,11 +1,5 @@
-// programa para salvar valores de um sensor na EEPROM e lê-los como texto em qualquer programa
-// duas opções: ler o sensor (r) e visualizar os valores lidos (w)
-// abrir o monitor serial e selecionar uma das opções, digitando r ou w
-// para escrever os valores, abrir editor de texto, clicar no botão acoplado ao arduino.
-// Pode ser então salvo como .csv, por exemplo
-
-//  verificar se o valor pode ser salvo de 0 a 1023 na EEPROM. parece limlitar a 255
-
+// TODO:
+//   verificar se o valor pode ser salvo de 0 a 1023 na EEPROM. parece limlitar a 255
 
 #include <Keyboard.h>
 #include <EEPROM.h>
